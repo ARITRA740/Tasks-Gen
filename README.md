@@ -78,6 +78,20 @@ This repo includes `render.yaml` for quick deployment.
 3. Set env var `OPENAI_API_KEY`.
 4. Deploy.
 
+## Deploy (Vercel)
+This repo is also configured for Vercel with serverless API routes:
+- `api/generate.js`
+- `api/status/llm.js`
+
+Steps:
+1. Import this GitHub repo into Vercel.
+2. Framework preset: `Vite`.
+3. Build command: `npm run build`.
+4. Output directory: `dist`.
+5. Add environment variable:
+   - `OPENAI_API_KEY=your_openai_api_key_here`
+6. Deploy.
+
 ## Submission Reply Template
 
 Project chosen: **B**
