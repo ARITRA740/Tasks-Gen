@@ -92,10 +92,10 @@ Steps:
    - `OPENAI_API_KEY=your_openai_api_key_here`
 6. Deploy.
 
-## Submission Reply Template
+## HOSTED LINKS
 
-Project chosen: **B**
+Project chosen: **A**
 
-Live link: `https://<your-live-domain>`
+Live link: `https://tasks-gen.vercel.app/`
 
 GitHub link: `https://github.com/ARITRA740/Tasks-Gen`
