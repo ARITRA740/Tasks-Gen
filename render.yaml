@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tasks-gen
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
